@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController () <UIImagePickerControllerDelegate, UINavigationBarDelegate>
+@interface ViewController () <UIImagePickerControllerDelegate, UINavigationBarDelegate, UINavigationControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end
